@@ -1,8 +1,6 @@
 ---
 marp: true
 title: Product Documentation Presentation
-description: Interactive product docs with Marp
-author: Technical Writer
 theme: custom
 paginate: true
 _paginate: true
@@ -10,7 +8,6 @@ _paginate: true
 
 <!--
 theme: custom
-class: lead
 style: |
   section {
     font-family: 'Segoe UI', sans-serif;
@@ -44,23 +41,23 @@ style: |
 ---
 
 <!-- _backgroundImage: url('https://images.unsplash.com/photo-1518770660439-4636190af475?fit=crop&w=1600&q=80') -->
-<!-- _backgroundColor: rgba(0,0,0,0.5) -->
+<!-- _backgroundSize: cover -->
 <!-- _color: white -->
-# Product Architecture Overview
+# 🌐 Product Architecture Overview
 
 1. **Frontend** – React + Tailwind  
 2. **Backend** – Node.js + Express  
 3. **Database** – PostgreSQL  
 4. **Cloud** – AWS
 
+*Background image from Unsplash*
+
 ---
 
 ## Mathematical Model
 
-Algorithmic complexity for our data processing pipeline:
-
 $$
-T(n) = O(n \log n) + O(k \cdot n)
+T(n) = O(n \\log n) + O(k \\cdot n)
 $$
 
 Where:  
