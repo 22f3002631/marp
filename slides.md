@@ -40,7 +40,7 @@ style: |
 
 ---
 
-<!-- _backgroundImage: url('https://images.unsplash.com/photo-1518770660439-4636190af475?fit=crop&w=1600&q=80') -->
+_backgroundImage: url('https://images.unsplash.com/photo-1518770660439-4636190af475?fit=crop&w=1600&q=80') 
 <!-- _backgroundSize: cover -->
 <!-- _color: white -->
 <!-- _backgroundColor: rgba(0,0,0,0.4) -->
