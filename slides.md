@@ -6,7 +6,7 @@ paginate: true
 _paginate: true
 ---
 
-<!--
+
 theme: custom
 style: |
   section {
@@ -20,8 +20,8 @@ style: |
     color: #888;
     font-size: 0.8em;
   }
--->
-<!-- _footer: "© 2025 Software Company | Contact: 22f3002631@ds.study.iitm.ac.in" -->
+
+ _footer: "© 2025 Software Company | Contact: 22f3002631@ds.study.iitm.ac.in" 
 
 # Product Documentation  
 ## Modern, Maintainable & Portable
@@ -41,9 +41,9 @@ style: |
 ---
 
 _backgroundImage: url('https://images.unsplash.com/photo-1518770660439-4636190af475?fit=crop&w=1600&q=80') 
-<!-- _backgroundSize: cover -->
-<!-- _color: white -->
-<!-- _backgroundColor: rgba(0,0,0,0.4) -->
+_backgroundSize: cover 
+_color: white
+_backgroundColor: rgba(0,0,0,0.4)
 
 # 🌐 Product Architecture Overview
 
