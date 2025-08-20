@@ -43,14 +43,19 @@ style: |
 <!-- _backgroundImage: url('https://images.unsplash.com/photo-1518770660439-4636190af475?fit=crop&w=1600&q=80') -->
 <!-- _backgroundSize: cover -->
 <!-- _color: white -->
+<!-- _backgroundColor: rgba(0,0,0,0.4) -->
+
 # 🌐 Product Architecture Overview
 
-1. **Frontend** – React + Tailwind  
-2. **Backend** – Node.js + Express  
-3. **Database** – PostgreSQL  
-4. **Cloud** – AWS
+## Modern Tech Stack
 
-*Background image from Unsplash*
+1. **Frontend** – React + Tailwind CSS
+2. **Backend** – Node.js + Express
+3. **Database** – PostgreSQL + Redis
+4. **Cloud Infrastructure** – AWS
+5. **DevOps** – Docker + Kubernetes
+
+*Technology background from Unsplash*
 
 ---
 
@@ -74,3 +79,71 @@ async function getProduct(id) {
   const res = await fetch(`/api/products/${id}`);
   return res.json();
 }
+
+// Error handling wrapper
+function withErrorHandling(fn) {
+  return async (...args) => {
+    try {
+      return await fn(...args);
+    } catch (error) {
+      console.error('API Error:', error);
+      throw error;
+    }
+  };
+}
+```
+
+---
+
+<!-- _backgroundImage: url('https://images.unsplash.com/photo-1551288049-bebda4e38f71?fit=crop&w=1600&q=80') -->
+<!-- _backgroundSize: cover -->
+<!-- _color: white -->
+<!-- _backgroundColor: rgba(0,0,0,0.3) -->
+
+# 📊 Performance Metrics
+
+## Key Performance Indicators
+
+- **Response Time:** < 200ms
+- **Uptime:** 99.9%
+- **Throughput:** 10,000 req/sec
+- **Error Rate:** < 0.1%
+
+*Monitoring dashboard background*
+
+---
+
+## Features & Benefits
+
+| Feature | Benefit | Impact |
+|---------|---------|--------|
+| **Real-time sync** | Instant updates | +40% productivity |
+| **Auto-scaling** | Cost optimization | -30% infrastructure cost |
+| **Security** | Data protection | 100% compliance |
+
+---
+
+<!-- _backgroundImage: url('https://images.unsplash.com/photo-1460925895917-afdab827c52f?fit=crop&w=1600&q=80') -->
+<!-- _backgroundSize: cover -->
+<!-- _color: white -->
+
+# 🚀 Future Roadmap
+
+## Q1 2025 Goals
+
+- ✅ **Mobile App Launch**
+- 🔄 **API v2.0 Development**
+- 📈 **Performance Optimization**
+- 🔒 **Enhanced Security Features**
+
+---
+
+## Contact & Resources
+
+**Technical Documentation Team**
+📧 **Email:** 22f3002631@ds.study.iitm.ac.in
+🌐 **Website:** company.com/docs
+📚 **Documentation:** docs.company.com
+
+### Thank You!
+*Questions & Discussion Welcome*
